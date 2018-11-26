@@ -7,7 +7,8 @@ function startGenerator() {
     generateEyes();
     generateAttribute();
     generateCharacter();
-    generateCup();
+   // generateCup();
+   //generateHairData();
     generateSkin();
 }
 
@@ -15,12 +16,16 @@ function generateCup() {
     randomData("cupsize",Cupsize_data);
 }
 
+function generateHairData() {
+    randomData("Hairdata",Haircolor_data);
+}
+
 function generateSkin() {
     randomData("skin",Skin_data);
 }
 
 function generateBody() {
-    var height = normalDistribution(165, 5)
+    var height = normalDistribution(180, 5)
     height = Math.round(height);
     var text1 = document.getElementById("height");
     text1.innerHTML=height;
