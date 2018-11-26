@@ -25,14 +25,21 @@ function generateSkin() {
 }
 
 function generateBody() {
-    var height = normalDistribution(180, 5)
+    var height = normalDistribution(180, 5);
     height = Math.round(height);
     var text1 = document.getElementById("height");
     text1.innerHTML=height;
+	
     var bmi = normalDistribution(20, 1);
     var weight = Math.round(bmi*(height/100)*(height/100));
     var text2 = document.getElementById("weight");
-    text2.innerHTML = weight;
+	text2.innerHTML = weight;
+		
+	var jier = normalDistribution(16, 5)
+	jier = Math.round(jier);
+	var text3 = document.getElementById("jierlength");
+	text3.innerHTML = jier;
+
 }
 function generateAge() {
     var gH = Math.round(normalDistribution(20, 2));
