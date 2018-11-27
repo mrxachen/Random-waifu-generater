@@ -24,7 +24,8 @@ Attribute_data = [
 	"模特",
 	"钢琴家",
 	"化学家",
-	
+	"女装大佬",
+	"肥宅"
 	
 ];
 
@@ -54,7 +55,7 @@ Cupsize_data = [
     "F",
     "G"
 ];
-*/
+
 
 Haircolor_data = [
     "黑",
@@ -67,7 +68,7 @@ Haircolor_data = [
 	"墨黑"
 	
 ];
-
+*/
 Skin_data = [
     "洁白",
     "正常",

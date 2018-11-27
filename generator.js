@@ -12,6 +12,7 @@ function startGenerator() {
     generateSkin();
 }
 
+/*
 function generateCup() {
     randomData("cupsize",Cupsize_data);
 }
@@ -19,6 +20,7 @@ function generateCup() {
 function generateHairData() {
     randomData("Hairdata",Haircolor_data);
 }
+*/
 
 function generateSkin() {
     randomData("skin",Skin_data);
