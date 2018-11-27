@@ -9,7 +9,9 @@ function startGenerator() {
     generateCharacter();
    // generateCup();
    //generateHairData();
+   generateSuperPower();
     generateSkin();
+	
 }
 
 /*
@@ -21,6 +23,10 @@ function generateHairData() {
     randomData("Hairdata",Haircolor_data);
 }
 */
+
+function generateSuperPower(){
+	randomData("superpowerdata",Superpower_data);
+}
 
 function generateSkin() {
     randomData("skin",Skin_data);
