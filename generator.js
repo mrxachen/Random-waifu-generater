@@ -4,6 +4,7 @@ function startGenerator() {
     generateBody();
     generateAge();
     generateHair();
+	generatefujinum();
     generateEyes();
     generateAttribute();
     generateCharacter();
@@ -23,6 +24,10 @@ function generateHairData() {
     randomData("Hairdata",Haircolor_data);
 }
 */
+
+function generatefujinum(){
+	randomData("fujinum",fujinum_data);
+}
 
 function generateSuperPower(){
 	randomData("superpowerdata",Superpower_data);
