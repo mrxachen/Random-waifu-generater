@@ -5,12 +5,13 @@ function startGenerator() {
     generateAge();
     generateHair();
 	generatefujinum();
+	//generateStaytime();
     generateEyes();
     generateAttribute();
     generateCharacter();
    // generateCup();
    //generateHairData();
-   generateSuperPower();
+    generateSuperPower();
     generateSkin();
 	
 }
@@ -24,6 +25,11 @@ function generateHairData() {
     randomData("Hairdata",Haircolor_data);
 }
 */
+
+function generateStaytime(){
+	randomData("staytime",staytime_data);
+}
+
 
 function generatefujinum(){
 	randomData("fujinum",fujinum_data);
